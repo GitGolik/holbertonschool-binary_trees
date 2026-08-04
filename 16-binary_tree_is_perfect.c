@@ -28,7 +28,8 @@ static size_t tree_height(const binary_tree_t *tree)
  * @height: Number of levels in the tree
  * Return: 1 if the tree is perfect, otherwise 0
  */
-static int perfect_check(const binary_tree_t *tree, size_t level, size_t height)
+static int perfect_check(const binary_tree_t *tree, size_t level,
+	 size_t height)
 {
 	if (tree == NULL)
 		return (0);
